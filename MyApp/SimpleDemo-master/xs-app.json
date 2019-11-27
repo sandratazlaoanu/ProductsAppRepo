@@ -1,0 +1,14 @@
+{
+	"welcomeFile": "SimpleDemo-master/index.html",
+	"authenticationMethod": "route",
+	"logout": {
+		"logoutEndpoint": "/do/logout"
+	},
+	"routes": [
+		{
+			"source": "^/SimpleDemo-master/(.*)$",
+			"target": "$1",
+			"localDir": "webapp"
+		}
+	]
+}

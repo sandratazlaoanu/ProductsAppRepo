@@ -1,0 +1,50 @@
+<View controllerName="com.cerner.sandra.MyApp.controller.MainView" xmlns:mvc="sap.ui.core.mvc" xmlns:table="sap.ui.table" xmlns:html="http://www.w3.org/1999/xhtml" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<Table id="idProductsTable" inset="false" items="{
+			path: 'product>/Products'
+		}">
+							<columns>
+								<Column width="5em">
+									<Text text="Id" />
+								</Column>
+								<Column width="2em" demandPopin="true">
+									<Text text="Name" />
+								</Column>
+								<Column width="5em" demandPopin="true" hAlign="End">
+									<Text text="Price" />
+								</Column>
+								<Column width="5em" demandPopin="true" hAlign="End">
+									<Text text="Currency" />
+								</Column>
+								<Column width="5em" demandPopin="true" hAlign="End">
+									<Text text="Product Date" />
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="{product>productId}" />
+										<Text text="{product>productName}" />
+										<Text text="{product>value}" />
+										<Text text="{
+											path:'product>currency',
+											formatter: '.formatter.currencyText'
+										}" />
+										<Text text="{
+										path:'product>productDate',
+										formatter: '.formatter.dateTimeText'
+										}" />
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</View>

@@ -1,0 +1,64 @@
+{
+	"Products": [
+		{
+			"productId": 1234152654678,
+			"productName": "Candy Bar",
+			"price": "12EUR",
+			"productDate": "2016/09/07 10:20:15"
+		},
+		{
+			"productId": 1134152654678,
+			"productName": "Cheese",
+			"price": "22GBP",
+			"productDate": "2016/05/05 16:40:15"
+		},
+		{
+			"productId": 1434152654678,
+			"productName": "Lemonade",
+			"price": "14USD",
+			"productDate": "2017/09/12 10:35:15"
+		},
+		{
+			"productId": 1034152654678,
+			"productName": "Nesscafe",
+			"price": "20GBP",
+			"productDate": "2017/02/03 10:20:15"
+		},
+		{
+			"productId": 2134152654678,
+			"productName": "Zacusca",
+			"price": "25USD",
+			"productDate": "2018/09/09 10:20:15"
+		},
+		{
+			"productId": 1534152654678,
+			"productName": "Coca Cola",
+			"price": "20GBP",
+			"productDate": "2019/09/08 14:50:15"
+		},
+		{
+			"productId": 1634152654678,
+			"productName": "Orange Juice",
+			"price": "15USD",
+			"productDate": "2017/08/06 10:20:15"
+		},
+		{
+			"productId": 1734152654678,
+			"productName": "Pickles",
+			"price": "16USD",
+			"productDate": "2016/09/01 10:20:15"
+		},
+		{
+			"productId": 1834152654678,
+			"productName": "Milk",
+			"price": "4EUR",
+			"productDate": "2015/09/02 11:20:15"
+		},
+		{
+			"productId": 1934152654678,
+			"productName": "Chocolate",
+			"price": "20EUR",
+			"productDate": "2019/05/11 10:20:15"
+		}
+	]
+}
