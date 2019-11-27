@@ -1,6 +1,6 @@
 [main] INFO com.sap.di.ext.mta.proc.DescriptorProcessorImpl - MTA manifest processing on 7 threads
 [main] INFO com.sap.di.ext.mta.cli.CliExecutor - arguments: [--build-target=CF, --mtar=mymtar.mtar, build]
-[main] INFO com.sap.di.ext.mta.cli.CliExecutor - Archive path is C:\Users\ST073494\Working\SCP training\MyApp\mymtar.mtar
+[main] INFO com.sap.di.ext.mta.cli.CliExecutor - Archive path is C:\Users\ST073494\Working\SCP training\GitHub\ProductApplicationRepository\MyApp\mymtar.mtar
 [main] DEBUG com.sap.di.ext.mta.cli.CliBuildExecutor - Starting MTA build
 [main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DesignDescriptor$$impl0 for bean interface com.sap.di.ext.mta.dto.DesignDescriptor
 [main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DesignModule$$impl1 for bean interface com.sap.di.ext.mta.dto.DesignModule
@@ -11,11 +11,11 @@
 [main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA ProductAppDeploy
 [main] INFO org.eclipse.che.commons.lang.concurrent.ThreadLocalPropagateContext - using a no-op implementation of interface org.eclipse.che.commons.lang.concurrent.ThreadLocalWrapper
 [main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA ProductAppDeploy: created 2 verification tasks
-[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA ProductAppDeploy: started symbol resource[uaa_MyApp]
 [pool-1-thread-2] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA ProductAppDeploy: started symbol module[SimpleDemo-master]
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA ProductAppDeploy: started symbol resource[uaa_MyApp]
 [pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA ProductAppDeploy: finished symbol resource[uaa_MyApp]
 [pool-1-thread-2] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'SimpleDemo-master': command timeout is 300 seconds
-[pool-1-thread-2] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'SimpleDemo-master': command output file is C:\Users\ST073494\Working\SCP training\MyApp\.mta\modulebuild3104983954229419037.txt
+[pool-1-thread-2] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'SimpleDemo-master': command output file is C:\Users\ST073494\Working\SCP training\GitHub\ProductApplicationRepository\MyApp\.mta\modulebuild10521281070834653164.txt
 [pool-1-thread-2] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'SimpleDemo-master': invoking command [npm.cmd, install, --production]
 [pool-1-thread-2] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA ProductAppDeploy: finished symbol module[SimpleDemo-master]
 [main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DeploymentDescriptor$$impl5 for bean interface com.sap.di.ext.mta.dto.DeploymentDescriptor
