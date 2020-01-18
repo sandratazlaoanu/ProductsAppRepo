@@ -6,14 +6,19 @@ sap.ui.define([], function() {
 		EURO: '€',
 		DOLLAR: '$'
 	};
+	const currency = {
+		EUR: 'EUR',
+		USD: 'USD',
+		GBP: 'GBP'
+	};
 	return {
 		currencyText: function(sCurrency) {
 			switch (sCurrency) {
-				case 'EUR':
+				case currency.EUR:
 					return type.EURO;
-				case 'USD':
+				case currency.USD:
 					return type.DOLLAR;
-				case 'GBP':
+				case currency.GBP:
 					return type.POUND;
 				default:
 					return sCurrency;

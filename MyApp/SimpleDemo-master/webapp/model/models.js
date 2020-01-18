@@ -9,7 +9,7 @@ sap.ui.define([ 'sap/ui/model/json/JSONModel', 'sap/ui/Device' ], function(JSONM
 		},
 
 		createProductModel: function() {
-			let oModel = new JSONModel('./data.json');
+			const oModel = new JSONModel('./data.json');
 			oModel.setDefaultBindingMode('OneWay');
 			return oModel;
 		}
